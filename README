@@ -1,0 +1,35 @@
+This repository contains the code used for data analysis in the BONSAI
+project (Financed by the Swedish funding agency Vinnova, 2018 - 2020).
+
+The objective of the project was to explore methods for causal
+inference for finding causal links between child cancer treatment and
+late effects. The idea is to use a constraint based causal inference
+method adapted for small data sets (most medical data sets are small
+from a machine learning perspective), to distinguish whether a late
+effect is caused by personal predisposition, the primary cancer
+diagnosis, or one of the treatments for the cancer.
+
+This repository contains two parts. One part contains the code for
+arranging the data from several registers (person info, control person
+info, diagnosis, treatments, in-patient care registry, out-patient
+care registry, death registry, and drug prescription, into a common
+file with all information about a patient or control person on one
+line each. The other part contains the analysis and visualization code
+based on that common file.
+
+The actual data is not included here, since it contains sensitive
+personal information and is therefore not publicly available.
+
+All the code is "research project quality", not production quality,
+which means that it is patchy, inconsistent, unclearn, not well
+documented, and thus not easy to use by someone else. Neverthelsee, it
+is included here for transparency of the methods used in the project.
+
+For questions about the code and how to use reuse snippets of it in
+other projects, contact Anders Holst: anders.holst@ri.se
+
+For questions about availability of data, contact Helena Linge:
+helena.linge@med.lu.se
+
+For suggestion for future research collaboration around these issues,
+you can contact any of the above.
